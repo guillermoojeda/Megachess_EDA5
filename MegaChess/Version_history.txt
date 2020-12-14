@@ -1,0 +1,60 @@
+Current version: Versiion 0.35
+Ready to send.
+
+Version 0.34
+More refactoring. Functions for websockets and play now are not in the main directory, but in "packages".
+
+Version 0.33
+More cleaning and refactoring.
+This is the version that played the final, and did pretty well, placed around 10-15.
+
+Version 0.32
+Even more cleaning and refactoring. Fixed minor bugs where the AI would send incorrect coordinates in some cases.
+
+Version 0.31
+Even more cleaning and refactoring. So far everything still works OK.
+
+Version 0.30
+Lots of code cleaning performed, including refactoring names and making sure to follow good coding practices. Still
+work to do in that regard!
+
+Version 0.21
+Minor bugs fixed for pawns, where they would move incorrectly in some particular situations.
+
+Version 0.20
+Implemented socket functionality with all changes made so far. Works OK when connecting with server.
+
+Version 0.17
+Fuction for_the_queens() implemented and tested. Ready to be used as strategy.
+
+Version 0.16
+Function think_all_possible_actions() implemented. Ready to start working on strategies.
+
+Version 0.15
+Function play_best_move() implemented.
+Function think_all_possible_eats() implemented, and decision based on scores is made.
+Connects to server OK, but will only play Coward King until other enemiese are in range of pawns.
+Unfortunately, at the moment of testing this version with the server, too few players were online and none of those were accepting
+my challenges. 
+
+Version 0.14
+Function think_all_possible_common_moves() is working ok, now gives the potential negative score if a move lets a piece 
+fall in a dangerous place.
+Function can_be_eaten()
+
+Version 0.13
+More functions implemented.
+
+Version 0.12
+Implements all pieces, functionality not tested in matches, but unit tests were OK.
+
+Version 0.1
+Implements Coward King slightly better.
+Before moving, checks the board to see if can eat something.
+Challenges are functinal: sends one challenge when connected, and accepts all challenges
+
+
+Version 0.1
+Code not very well implemented, but functional
+Plays Coward King succesfully, and that´s it.
+Challenges are sent only to my self, and accepted only if I am the challenger.
