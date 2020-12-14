@@ -33,19 +33,6 @@ async def challenge(username):
 
     print("Acción realizada: Enviar desafío\n")
 
-"""
-async def accept_challenge():
-    await send(
-        websocket,
-        'accept_challenge',
-        {
-            'board_id': data['data']['board_id'],
-        }
-    )
-    print("Acción realizada: Aceptar desafío.\n")
-
-"""
-
 
 async def play(websocket):
     send_challenge = True  # Set to false for tournaments, so I do not send challenges.
